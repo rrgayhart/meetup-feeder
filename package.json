@@ -4,7 +4,8 @@
   "description": "A Node.js app using Express 4 that Grabs Meetups",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha spec --require spec/helpers/chai.js"
   },
   "dependencies": {
     "pg": "4.x",
@@ -23,5 +24,10 @@
     "meetup",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
+  }
 }
