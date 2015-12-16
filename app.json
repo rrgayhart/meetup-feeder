@@ -1,0 +1,8 @@
+{
+  "name": "Meetup Feeder",
+  "description": "A Node.js app using Express 4 that Grabs Meetups",
+  "repository": "https://github.com/rrgayhart/meetup-feeder",
+  "logo": "",
+  "keywords": ["node", "express", "meetup"],
+  "image": ""
+}
